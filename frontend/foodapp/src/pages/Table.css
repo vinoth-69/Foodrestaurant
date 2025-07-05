@@ -1,0 +1,75 @@
+/* Table Booking Container */
+.table-container {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #333;
+  }
+  
+  /* Form Fields */
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Table Buttons */
+  .table-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .table-btn {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .table-btn.selected {
+    background-color: green;
+  }
+  
+  /* Book Now Button */
+  .book-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-btn:hover {
+    background-color: #e65c00;
+  }
+  
+  /* Message */
+  .message {
+    margin-top: 10px;
+    color: green;
+  }
+  

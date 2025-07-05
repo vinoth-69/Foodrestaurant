@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #333;
+    padding: 15px 50px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+   
+  .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+    
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  .nav-links li:hover {
+    color: #ff9800;
+  }
+   
+
+   
